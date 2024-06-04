@@ -1,0 +1,9 @@
+.status-page .users{
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+}
+.status-page h1{
+    text-align: center;
+    opacity: .5;
+}

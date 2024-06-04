@@ -1,0 +1,26 @@
+.homePage{
+    display: flex;
+    flex-direction: column;
+    gap: 1.3rem;
+}
+.homePage p{
+    font-size: 1.2rem;
+    text-align: center;
+}
+.homePage span{
+    font-weight: bold;
+}
+.homePage h1{
+    text-align: center;
+}
+.homePage h2{
+    text-align: center;
+}
+
+@media (min-width: 505px) {
+    .homePage p{
+        text-align: justify;
+        text-indent: 40px;
+
+    }
+}

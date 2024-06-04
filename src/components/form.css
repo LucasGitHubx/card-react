@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap');
+
+form{
+    width: 50%;
+    min-width: 350px;
+    max-width: 300px;
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: column;
+}
+form label{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: 'Inconsolata';
+}
+form input{
+    padding: .5rem;
+    margin-bottom: 2rem;
+    margin-top: .5rem;
+    outline: none;
+    border: 1px solid gray;
+}
+form section{
+    display: flex;
+    justify-content: space-between;
+}
+form section input{
+    width: 40%;
+}
+form button{
+    cursor: pointer;
+    width: 50%;
+    margin: 0 auto;
+    padding: .5rem;
+    border: none;
+    border-radius: 12px;
+    background-color: rgb(64, 64, 194);
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+}
+form button:active{
+    opacity: .5;
+}
+
+form p{
+    display: none;
+    color: red;
+    font-size: .8rem;
+    margin-top: .1rem;
+}
+form p.active{
+    display: block;
+}
+form input.active{
+    border: 1px solid red;
+}

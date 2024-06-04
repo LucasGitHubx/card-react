@@ -1,0 +1,40 @@
+:root{
+    --skyblue: #86e3e9;
+    --darker_skyblue: #3fc1d8;
+}
+header{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    justify-content:center;
+    flex-flow: row wrap;
+
+    border-bottom: 1px solid rgb(214, 214, 214);
+    padding: 2rem;
+}
+header a{
+    display: inline-block;
+    text-decoration: none;
+    color: var(--darker_skyblue);
+
+    transition: .2s;
+}
+header a:hover{
+    color: var(--skyblue);
+}
+header nav ul{
+    list-style: none;
+
+    display: flex;
+    gap: 1rem;
+}
+
+@media (min-width: 505px){
+    header{
+        display: flex;
+        align-items: center;
+        justify-content: left;
+        gap: 3rem;
+        flex-flow: row wrap;
+    }
+}
