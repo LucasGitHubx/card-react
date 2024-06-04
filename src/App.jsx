@@ -42,10 +42,10 @@ export default function App() {
         >
           <div className="container">
             <Routes>
-              <Route path="/" element={<HomePage />} />
-              <Route path="/about" element={<AboutPage />} />
-              <Route path="/upgrade" element={<UpgradeLevel />} />
-              <Route path="/status" element={<StatusPage />} />
+              <Route path="card-react/" element={<HomePage />} />
+              <Route path="card-react/about" element={<AboutPage />} />
+              <Route path="card-react/upgrade" element={<UpgradeLevel />} />
+              <Route path="card-react/status" element={<StatusPage />} />
             </Routes>
           </div>
         </Context.Provider>

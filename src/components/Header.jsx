@@ -4,19 +4,19 @@ import "./header.css";
 export default function Header() {
   return (
     <header>
-      <NavLink to="/">
+      <NavLink to="card-react/">
         <h1>Card Test</h1>
       </NavLink>
       <nav>
         <ul>
           <li>
-            <NavLink to="/about">About Us</NavLink>
+            <NavLink to="card-react/about">About Us</NavLink>
           </li>
           <li>
-            <NavLink to="/status">See Status</NavLink>
+            <NavLink to="card-react/status">See Status</NavLink>
           </li>
           <li>
-            <NavLink to="/upgrade">Upgrade Level</NavLink>
+            <NavLink to="card-react/upgrade">Upgrade Level</NavLink>
           </li>
         </ul>
       </nav>
